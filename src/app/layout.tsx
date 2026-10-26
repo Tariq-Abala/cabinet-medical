@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const viewport: Viewport = {
-  themeColor: "#07101C",
+  themeColor: "#F8FAFC",
   width: "device-width",
   initialScale: 1,
 };
@@ -20,8 +20,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fr" className="scroll-smooth dark">
-      <body className="min-h-screen bg-[#07101C] text-[#F8FAFC] antialiased">
+    <html lang="fr" className="scroll-smooth">
+      <body className="min-h-screen bg-[#F8FAFC] text-[#0F172A] antialiased">
         {children}
       </body>
     </html>
